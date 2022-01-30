@@ -16,7 +16,7 @@ export default {
         pro1: 13,
         pro2: 'yy',
         pro3: true,
-        pro4: 'hii',
+        pro4: 'hi',
       }
     }
   },
