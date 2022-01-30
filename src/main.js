@@ -1,4 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import FriendCom from "@/components/FriendCom";
+import TestCom from "@/components/TestCom";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.component('friend-com',FriendCom);
+app.component('test-com',TestCom);
+app.mount('#app');
