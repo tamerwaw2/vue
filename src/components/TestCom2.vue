@@ -16,7 +16,7 @@ export default {
         pro1: 13,
         pro2: 'yy',
         pro3: true,
-        pro4: 'hi',
+        pro4: 'hii',
       }
     }
   },
@@ -25,6 +25,6 @@ export default {
 
 <style scoped>
 h2{
-  color: red;
+  color: black;
 }
 </style>
